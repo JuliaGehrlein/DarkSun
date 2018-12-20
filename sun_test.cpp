@@ -123,6 +123,7 @@ int main()
   nus_evo.Set_Body(vacuum);
   nus_evo.Set_Track(track_vac);
 
+  // WHY IS THIS NECESSARY?????????
   ini_state = {nus_evo.EvalFlavor(0),nus_evo.EvalFlavor(1),nus_evo.EvalFlavor(2)};
   nus_evo.Set_initial_state(ini_state,flavor);
 
